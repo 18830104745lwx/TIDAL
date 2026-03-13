@@ -1,0 +1,22 @@
+{
+    "traffic_state_pred": {
+        "allowed_model": [
+            "TIDAL"
+        ],
+        "allowed_dataset": [
+            "PeMS04",
+            "PeMS07",
+            "PeMS08",
+            "NYCTaxi",
+            "T-Drive",
+            "CHIBike",
+            "ChengduDiDi20x20",
+            "ShanghaiTaxi20x20"
+        ],
+        "TIDAL": {
+            "dataset_class": "TrafficStateGridDataset",
+            "executor": "TIDALExecutor",
+            "evaluator": "TrafficStateGridEvaluator"
+        }
+    }
+}
