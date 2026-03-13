@@ -1,0 +1,38 @@
+{
+  "geo": {
+    "including_types": [
+      "Polygon"
+    ],
+    "Polygon": {
+      "row_id": "num",
+      "column_id": "num"
+    }
+  },
+  "grid": {
+    "including_types": [
+      "state"
+    ],
+    "state": {
+      "row_id": 20,
+      "column_id": 20,
+      "inflow": "num",
+      "outflow": "num"
+    }
+  },
+  "info": {
+    "data_col": [
+      "inflow",
+      "outflow"
+    ],
+    "data_files": [
+      "ChengduDiDi20x20"
+    ],
+    "geo_file": "ChengduDiDi20x20",
+    "output_dim": 2,
+    "time_intervals": 1800,
+    "init_weight_inf_or_zero": "inf",
+    "set_weight_link_or_dist": "dist",
+    "calculate_weight_adj": false,
+    "weight_adj_epsilon": 0.1
+  }
+}
