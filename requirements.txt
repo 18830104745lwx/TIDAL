@@ -1,0 +1,50 @@
+# Enhanced TrafficFormer - 增强版交通流量预测模型依赖包
+# 基于 trafficformer_env 环境生成
+
+# 核心深度学习框架
+torch==1.12.1+cu113
+torchaudio==0.12.1+cu113
+torchvision==0.13.1+cu113
+
+# 数据处理和科学计算
+numpy==1.22.0
+pandas==1.1.5
+scipy==1.7.3
+scikit-learn==0.24.0
+
+# 时间序列分析
+fastdtw==0.3.4
+statsmodels==0.13.1
+
+# 图网络和网络分析
+networkx==2.5.1
+
+# 自然语言处理（用于文本特征）
+nltk==3.2.4
+gensim==4.0.1
+
+# 可视化和监控
+matplotlib==3.7.5
+tensorboard==2.4.1
+tqdm==4.60.0
+tabulate==0.8.9
+
+# 超参数优化
+hyperopt==0.2.5
+ray==1.4.1
+
+# 代码质量检查
+flake8==3.3.0
+pep8-naming==0.4.1
+pytest==3.2.1
+
+# 系统和协议
+protobuf==3.20.0
+PyYAML==6.0.2
+
+# GPU监控（可选）
+nvidia-ml-py==13.580.65
+gpustat==1.1.1
+
+# TLAST模型依赖
+einops>=0.6.0
